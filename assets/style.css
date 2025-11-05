@@ -89,7 +89,9 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
+
 	/*	#gallery min-height: 100vh; */
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -239,6 +241,24 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+.footer-info{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap:30px;
+	padding-top:25px;
+	padding-bottom: 25px;
+	color:white;
+}
+footer{
+	background-color: #000;
+
+}
+
+.footer-info strong {
+	font-size:21px;
+}
+
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -254,6 +274,7 @@ input[type="submit"] {
 	 #about-me p {
 		width: 100%;
 	}
+	
 }
 
 @media all and (max-width: 1000px) {
@@ -348,5 +369,12 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	.footer-info{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap:3px;
+}
+
 }
 
